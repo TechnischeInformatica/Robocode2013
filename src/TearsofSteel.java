@@ -28,10 +28,7 @@ public class TearsofSteel extends Robot {
 	public void run() {
 
 		while (true) {
-			ahead(100); // Move ahead 100
-			turnGunRight(360); // Spin gun around
-			back(100); // Move back 100
-			turnGunRight(360); // Spin gun around
+			ahead(400); // Move ahead 100
 		}
 	}
 
@@ -50,11 +47,3 @@ public class TearsofSteel extends Robot {
 		turnLeft(90 - e.getBearing());
 	}
 }												
-
-				
-	}	
-}				
-	}	
-}				
-	}	
-}
